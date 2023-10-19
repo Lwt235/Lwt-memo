@@ -1,0 +1,78 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.Main input {
+  border-color: rgb(209, 55, 55);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  box-sizing: border-box;
+  vertical-align: top;
+  border-right: none;
+}
+
+.Main input::placeholder {
+  color: lightgray;
+  font-size: 20px;
+}
+
+.Main button {
+  border-color: rgb(209, 55, 55);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(222, 109, 109);
+  color: white;
+}
+
+.Main button:hover {
+  background-color: rgb(212, 95, 95);
+}
+
+.Main li {
+  list-style-type: none;
+}
+
+.Main .index {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+.Main .view {
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
